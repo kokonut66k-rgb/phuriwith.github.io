@@ -1,94 +1,106 @@
-
 <!DOCTYPE html>
 <html lang="th">
 <head>
-    <meta charset="UTF-8">
-	<title>💚lifestyle phuriwith</title>
+  <meta charset="UTF-8">
+  <title>lifestyle phxriwith</title>
 
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: #0d0d0d;
-            color: white;
-            text-align: center;
-            padding: 20px;
-        }
+  <!-- สำคัญมาก สำหรับมือถือ -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        h1 {
-            margin-bottom: 30px;
-        }
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #0f0f0f;
+      color: #ffffff;
+      margin: 0;
+      padding: 16px;
+    }
 
-        .box {
-            background: #1a1a1a;
-            padding: 20px;
-            margin: 20px auto;
-            max-width: 500px;
-            border-radius: 15px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.6);
-        }
+    h1 {
+      text-align: center;
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
 
-        iframe {
-            border-radius: 12px;
-        }
-    </style>
+    p {
+      text-align: center;
+      color: #cccccc;
+      margin-bottom: 20px;
+    }
+
+    .share {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      margin-bottom: 24px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      text-decoration: none;
+      padding: 12px 20px;
+      border-radius: 30px;
+      font-weight: bold;
+      color: white;
+      font-size: 14px;
+    }
+
+    .spotify {
+      background: #1DB954;
+    }
+
+    .ig {
+      background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af);
+    }
+
+    iframe {
+      width: 100%;
+      border-radius: 12px;
+      margin-bottom: 24px;
+    }
+
+    /* มือถือ */
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 24px;
+      }
+
+      iframe {
+        height: 480px;
+      }
+    }
+  </style>
 </head>
+
 <body>
 
-    <h1>🎧 Spotify เพลย์ลิสของฉัน</h1>
+  <h1>lifestyle phxriwith</h1>
+  <p>music • mood • everyday vibes</p>
 
-    <!-- เพลง Spotify -->
-<div class="box">
-    <h3>🎵 เพลง</h3>
-    <iframe
-        src="https://open.spotify.com/embed/track/7qnOBKSYDb56PUOzb50kDA?utm_source=generator"
-        width="100%"
-        height="352"
-        frameborder="0"
-        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-        loading="lazy"
-        style="border-radius:12px">
-    </iframe>
-</div>
+  <!-- ปุ่มแชร์ -->
+  <div class="share">
+    <a class="btn spotify"
+       href="https://open.spotify.com/playlist/6ljev8USVi4VI6Ej0Lvn4U"
+       target="_blank">
+       🎧 เปิดใน Spotify
+    </a>
 
+    <a class="btn ig"
+       href="https://www.instagram.com/"
+       target="_blank">
+       📸 Instagram
+    </a>
+  </div>
 
-
-
-    <!-- เพลง Spotify อีกเพลง -->
-<div class="box">
-    <h3>🎤 ศิลปิน</h3>
-    <iframe
-        src="https://open.spotify.com/embed/artist/1KXxfYnhxzq9xBkhFZaYxX?utm_source=generator"
-        width="100%"
-        height="380"
-        frameborder="0"
-        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-        loading="lazy"
-        style="border-radius:12px">
-    </iframe>
-</div>
-
-
-
-
-    <!-- เพลย์ลิส Spotify -->
-<div class="box">
-    <h3>📀 เพลย์ลิส</h3>
-    <iframe
-        src="https://open.spotify.com/embed/playlist/6ljev8USVi4VI6Ej0Lvn4U?utm_source=generator"
-        width="100%"
-        height="380"
-        frameborder="0"
-        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-        loading="lazy"
-        style="border-radius:12px">
-    </iframe>
-</div>
-
-<h1>lifestyle dekswag |ig not.ff99</h1>
-
+  <!-- Spotify Embed -->
+  <iframe
+    src="https://open.spotify.com/embed/playlist/6ljev8USVi4VI6Ej0Lvn4U"
+    height="420"
+    frameborder="0"
+    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+    loading="lazy">
+  </iframe>
 
 </body>
 </html>
-
-
 
